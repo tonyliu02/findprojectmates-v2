@@ -1,0 +1,205 @@
+/* ===================== general =================== */
+
+#formRow {
+  margin-top: 8vh;
+  height: 92vh;
+}
+
+/* make the input box only show the bottom border */
+.form-control {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-radius: 0;
+}
+
+.form-check {
+  width: 400px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+}
+/* ========================== end general ===================== */
+
+
+/* ========================= navbar ======================= */
+#mainNav {
+  /* vh is relative to 1% of the viewport height */
+  height: 8vh;
+}
+#something {
+  height: 100px;
+  background-color: aqua;
+}
+/* ========================= end navbar ======================= */
+
+
+/* ========================= post page ==================== */
+
+/* remove the curvatures at the ends of the progress bar */
+.progress {
+  border-radius: 0px;
+  height: 10px;
+  background-color: #FFFFFF;
+}
+
+/* change the font of the submit buttons on the post pages */
+input.postBtn {
+  font-weight: bold;
+}
+
+/* ------------ get started */
+.postingQuestionnaireBlock {
+  background-color: #FFFFFF;
+  margin: 30px 0;
+  padding: 30px 30px;
+  border-radius: 20px;
+}
+
+.postingQuestionnaireTitleBlock {
+  background-color: #FFFFFF;
+  margin: 30px 0;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+
+
+.postingQuestionnaireLastBlock {
+  margin-bottom: 50px;
+}
+
+#getStartedFormContainer {
+  /* the container is below the navbar */
+  margin-top:8vh;
+  background-color: #f0f1f2;
+}
+
+.questionnaireTitle {
+  display: inline;
+  margin-left: 35px;
+  margin-right: 55px;
+}
+
+.otherProject {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.textarea {
+  border-style: solid;
+}
+
+#projectName {
+  width: 70%;
+}
+
+.post-questionTitle {
+  display: block;
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+/* ------------- end get started */
+
+/* ------------- qualifications */
+.addBtn {
+  padding: 5px 20px;
+  margin-left: 30px;
+}
+/* ------------- end qualifications */
+
+/* ========================= end post pages ================== */
+
+
+
+/* ============= signup and login page ============= */
+#signupPageTop, #loginPageTop {
+  background-color: #d3e7e8;
+}
+
+/* set up the size for the big container */
+#signUpContainer, #logInContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+/* set up the sign up form */
+#formContainer {
+  height: auto;
+  padding: 30px 50px;
+  box-shadow: -1px 3px 10px 10px rgba(77, 75, 75, 0.75);
+  background-color: #FFFFFF;
+}
+
+
+/* when the user doesn't enter their information completely */
+#emptyEmailMsg {
+  visibility: hidden;
+}
+
+#emptyFirstNameMsg {
+  visibility: hidden;
+}
+
+#emptyPwMsg {
+  /* use display: none here because it doesn't take up space, unlike visibility: hidden */
+  display: none;
+}
+
+#duplicateEmailMsg {
+  display: none;
+}
+
+/* for login page, the empty password message block should occupy space */
+#loginEmptyPwMsg {
+  display: none;
+}
+
+/* the failed login message should not occupy space */
+#failedLoginMsg {
+  display: none;
+}
+
+/* set the margin-bottom for login form */
+#belowPwInput {
+  margin-bottom: 50px;
+}
+
+/* set the margin-top for sign up now link */
+#signUpNow {
+  margin-top: 50px;
+}
+
+/* about the show/hide password icons */
+/* set hide password icon to be invisible at first */
+#hidePwIcon {
+  visibility: hidden;
+}
+
+#showPwIcon:hover, #hidePwIcon:hover {
+  color: blue;
+}
+
+
+/* ============= end signup and login page ============ */
+
+
+/* ============= forgot password page =========== */
+#forgetPwPrompt {
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#emailNotFoundMsg {
+  display: none;
+}
